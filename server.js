@@ -10,7 +10,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   res.send('<h1 style="color:violet;">Java Home App - version-5!!</h1> \n');
->>>>>>> 3058fd6c8b9c777da99aafa52213772c3c8c6efe
+
 });
 
 app.listen(PORT, HOST);
