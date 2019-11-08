@@ -2,14 +2,14 @@
 
 const express = require('express');
 
-// Constantss
+// Constants
 const PORT = 8080;
 const HOST = '0.0.0.0';
 
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('<h1 style="color:cyan;">Java Home App - version-5!!</h1> \n');
+  res.send('<h1 style="color:black;">Java Home App - version-6!!</h1> \n');
 });
 
 app.listen(PORT, HOST);
